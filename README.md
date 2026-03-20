@@ -11,7 +11,7 @@ This is **not a template project** — it's a set of structured instructions (an
 | Phase | Topics |
 |-------|--------|
 | **🚀 Setup** | Multi-module Clean Architecture, Gradle convention plugins, version catalog, core modules |
-| **🔨 Development** | Feature modules (MVI), Ktor networking, Room database, Koin DI, Navigation Compose, offline-first, WebSocket, security (bearer auth, token refresh), testing (Kover, Turbine), Chucker |
+| **🔨 Development** | Feature modules (MVI), Ktor networking, Room database, Koin DI, Navigation Compose, offline-first, WebSocket, security (bearer auth, token refresh), Firebase push notifications, testing (Kover, Turbine), Chucker |
 | **📦 Production** | ProGuard/R8, app signing, CI/CD (GitHub Actions), performance optimization, pre-release checklist |
 
 ## Installation
@@ -66,8 +66,11 @@ git clone https://github.com/firdaus1453/kmp-skill.git
 | Kover | Test coverage reports |
 | Turbine | Flow/Channel testing |
 | Chucker | HTTP debugging (Android) |
+| Firebase Messaging | Push notifications (Android + iOS) |
 | BuildKonfig | Build-time constants |
 | Kermit | Multiplatform logging |
+| Coil | Image loading |
+| MOKO Permissions | Permissions |
 
 ## Architecture
 
